@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: rgb(108, 151, 105);
+}
+.container{
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: hsl(30, 5%, 84%);
+    margin: 20px;
+    padding: 30px;
+}
+.container h2{
+    text-align: center;
+    font-size: 25px;
+    color: darkred;
+    font-weight: 800;
+}
+/* .amount input{
+    border-radius: 3px;
+    border: 2px solid rgb(154, 18, 18);
+    width: 250px;
+    height: 20px;
+    
+} */
+/* form{
+    margin-left: 20px;
+} */
+.amount{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    color: rgb(27, 15, 158);
+}
+form select, input {
+    border: none;
+    outline: none;
+}
+form  input {
+    border: 2px solid rgb(255, 0, 0);
+    height: 40px;
+    width: 233px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+form select{
+    border: 3px solid black;
+    background-color: rgb(82 183 63 / 39%);
+    color: black;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.select-container{
+    border: 2px solid #a19999;
+    /* background-color: blue; */
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+.dropdown{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.dropdown p{  
+    font-size: 30px;
+    color: rgb(27, 15, 158);
+}
+.dropdown i{  
+    margin: 15px;
+    margin-top: 40px;
+}
+.message{
+    margin-top: 15px;
+    color: rgb(27, 15, 158);
+    font-size: 20px;
+}
+button{
+    font-size: 25px;
+    color: rgb(146, 12, 106);
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 55px;
+    cursor: pointer;
+    border-radius: 4px;
+}
